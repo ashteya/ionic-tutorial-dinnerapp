@@ -1,9 +1,5 @@
 // Karma configuration
-<<<<<<< HEAD
-// Generated on Sat Jul 25 2015 13:33:07 GMT+0100 (IST)
-=======
 // Generated on Thu Jul 30 2015 20:56:16 GMT+0100 (IST)
->>>>>>> 196514b29257748b95f98726acd942c3a6a5aae3
 
 module.exports = function(config) {
   config.set({
@@ -19,24 +15,11 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-<<<<<<< HEAD
-      '../../www/lib/ionic/js/angular/angular.js',
-      '../../www/lib/ionic/js/angular/angular-animate.js',
-      '../../www/lib/ionic/js/angular/angular-resource.js',
-      '../../www/lib/ionic/js/angular/angular-sanitize.js',
-      '../../www/lib/ionic/js/angular-ui/angular-ui-router.js',
-      '../../www/lib/ionic/js/ionic.js',
-      '../../www/lib/ionic/js/ionic-angular.js',
-      '../../bower_components/angular-mocks/angular-mocks.js',
-      '../../www/app/**/*.js',
-      'unit-tests/**/*.tests.js'
-=======
       '../www/lib/ionic/js/ionic.bundle.js',
       '../www/lib/moment.min.js',
       '../www/app/**/*.js',
       '../bower_components/angular-mocks/angular-mocks.js',
       'unit-tests/**/*.js'
->>>>>>> 196514b29257748b95f98726acd942c3a6a5aae3
     ],
 
 
